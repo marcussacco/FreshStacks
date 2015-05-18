@@ -19,16 +19,19 @@ header {
   padding: 25px;
   padding-bottom: 0;
 }
+
 header h1 {
   color: #bdb39f;
   font-weight: 300;
   font-size: 3em;
   display: inline;
 }
+
 header h1:nth-child(2) {
   color: #655a45;
   font-weight: 700;
 }
+
 header p {
   font-size: 1.5em;
   color: #e7e3db;
@@ -40,6 +43,7 @@ header p {
   text-align: center;
   font-family: Raleway, Sans-serif;
 }
+
 #weekContainer .weekCell {
   margin: 0 auto;
   width: 100px;
@@ -54,6 +58,7 @@ header p {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease-out;
 }
+
 #weekContainer .day {
   position: absolute;
   top: 0;
@@ -73,6 +78,7 @@ header p {
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
 }
+
 #weekContainer .day p {
   font-size: 1.5em;
   font-weight: 700;
@@ -81,11 +87,13 @@ header p {
   color: #e7e3db;
   transition: linear .1s;
 }
+
 #weekContainer .weekCell.flip .day {
   z-index: 900;
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
 }
+
 #weekContainer .task {
   position: absolute;
   top: 0;
@@ -104,6 +112,7 @@ header p {
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
 }
+
 #weekContainer .task .exit {
   position: absolute;
   height: 10px;
@@ -118,11 +127,13 @@ header p {
   margin: 0;
   padding: 0;
 }
+
 #weekContainer .weekCell.flip .task {
   z-index: 1000;
   -webkit-transform: rotateX(0deg) rotateY(0deg);
   -moz-transform: rotateX(0deg) rotateY(0deg);
 }
+
 #weekContainer .task p {
   color: #e7e3db;
 }
@@ -136,6 +147,7 @@ header p {
   text-align: center;
   color: #463f30;
 }
+
 #stackContainer .stackCell {
   width: 100px;
   height: 50px;
@@ -153,6 +165,7 @@ header p {
   margin-bottom: 25px;
   margin-left: 25px;
 }
+
 #workIt h1 {
   font-weight: 900;
   font-size: 6em;
@@ -161,6 +174,7 @@ header p {
   text-align: left;
   line-height: 85px;
 }
+
 #workIt h1:nth-of-type(2) {
   color: #655a45;
 }
